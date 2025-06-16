@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("model.pkl")
+model = joblib.load("rf_model_gps.pkl")
 
 st.set_page_config(page_title="GPS Fraud Detection", layout="centered")
 st.title("🚗 GPS Fraud Detection System")
